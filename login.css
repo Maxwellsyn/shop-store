@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background: url('imagens/img_login.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.slogan {
+  color: white;
+  font-size: 2.5em;
+  line-height: 1.5;
+  font-weight: 200;
+  padding-left: 40px;
+}
+
+.slogan h1 {
+font-family: new-york-personal-use, sans-serif;
+  font-weight: 200;
+  margin-bottom: 20px;
+ 
+}
+
+
+
+.login-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+  color: white;
+}
+
+.logo {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+}
+
+.logo span {
+  font-weight: 200;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  background-color: #222;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.forgot {
+  display: block;
+  text-align: right;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #1cb4a2;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register {
+  margin: 20px 0 10px;
+  font-size: 0.9em;
+}
+
+.register a {
+  color: #1cb4a2;
+  text-decoration: none;
+}
+
+.social-login a {
+  width: 100%;
+  padding: 9px;
+  margin-top: 9px;
+  border: none;
+  border-radius: 5px;
+  color: rgb(240, 236, 236);
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+}
+
+.google {
+  background-color: rgb(93, 93, 93);
+}
+
+.facebook {
+  background-color: rgb(93, 93, 93);
+}

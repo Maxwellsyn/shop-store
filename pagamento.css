@@ -1,0 +1,406 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+}
+
+.header {
+  background: #0a8b95;
+  padding: 10px 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.header input {
+  width: 40%;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+}
+
+.header .actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header .avatar {
+  width: 28px;
+  height: 28px;
+  background: #ccc;
+  border-radius: 50%;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  gap: 40px;
+}
+
+.pagamento {
+  flex: 1;
+}
+
+.breadcrumbs {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs .ativo {
+  color: #2a6df4;
+  font-weight: bold;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.metodo {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.cartoes {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.cartao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.cartao img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.cartao input {
+  margin-left: auto;
+}
+
+.add-cartao, .add-metodo {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.add-cartao i, .add-metodo i {
+  margin-right: 5px;
+}
+
+.resumo {
+  background: #f4f8ff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+}
+
+.produto {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.produto img {
+  width: 70px;
+  border-radius: 8px;
+}
+
+.produto .info {
+  flex: 1;
+}
+
+.produto .close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  cursor: pointer;
+  color: #666;
+}
+
+.oferta {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.oferta input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 60%;
+}
+
+.oferta a {
+  font-size: 13px;
+  align-self: center;
+  text-decoration: underline;
+  cursor: pointer;
+  color: #2a6df4;
+}
+
+.detalhes {
+  margin: 20px 0;
+  font-size: 14px;
+}
+
+.detalhes p {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.total {
+  font-weight: bold;
+}
+
+.endereco {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.pagar {
+  width: 100%;
+  background: #2a6df4;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+
+footer {
+ 
+  background-color: #004d40;
+  color: white;
+  padding: 40px 20px 20px;
+  margin-top: 40px;
+}
+
+
+
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-cols > div {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-cols h4 {
+  margin-bottom: 10px;
+}
+
+.footer-cols a {
+  display: block;
+  color: #ddd;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.footer-cols input {
+  padding: 6px;
+  margin-top: 8px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer-cols button {
+  padding: 6px 10px;
+  background-color: #1de9b6;
+  border: none;
+  border-radius: 4px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+footer h2 span {
+  font-weight: 300;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer {
+  background-color: #002828;
+  color: #ffffff;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-logo {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer-logo h2 {
+  font-weight: normal;
+}
+
+.footer-logo .vertical {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-column {
+  flex: 1 1 180px;
+  margin: 20px 10px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+  color: #d4d4d4;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-column.subscribe p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.subscribe-form input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+}
+
+.subscribe-form button {
+  padding: 8px 12px;
+  background-color: #007f79;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color: #009c93;
+}
+
+.footer-bottom {
+  border-top: 1px solid #1c4444;
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.footer-links {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #bbb;
+  margin: 0 10px;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.footer-social a {
+  color: #bbb;
+  margin: 0 8px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-social a:hover {
+  color: white;
+}

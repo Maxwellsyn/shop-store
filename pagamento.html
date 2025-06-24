@@ -1,0 +1,148 @@
+ <!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Checkout - iShop</title>
+  <link rel="stylesheet" href="pagamento.css">
+<link rel="shortcut icon" href="icon/favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">Store <span>Shop</span></div>
+    <input type="text" placeholder="Buscar produtos...">
+    <div class="actions">
+      <a href="#">Favoritos</a>
+      <a href="#"><i class="fa fa-bag-shopping"></i> Sacola</a>
+      <div class="avatar"></div>
+    </div>
+  </header>
+
+  <main class="checkout-container">
+    <div class="pagamento">
+      <p class="breadcrumbs"><span>carrinho</span> > <span>Shop</span> > <span class="ativo">Checkout</span></p>
+      <h2>Método de Pagamento</h2>
+
+      <select class="metodo">
+        <option>Pix</option>
+        <option selected>Cartão de Débito</option>
+      </select>
+
+      <div class="cartoes">
+        <label class="cartao">
+          <img src="https://img.icons8.com/color/48/000000/mastercard-logo.png" alt="MasterCard">
+          Bradesco •••• 4578
+          <input type="radio" name="cartao" checked>
+        </label>
+
+        <label class="cartao">
+          <img src="https://img.icons8.com/color/48/000000/visa.png" alt="Visa">
+          Itaú •••• 4521
+          <input type="radio" name="cartao">
+        </label>
+
+        <button class="add-cartao"><i class="fa fa-plus"></i> Adicionar novo cartão</button>
+      </div>
+
+      <button class="add-metodo"><i class="fa fa-plus"></i> Adicionar novo método de pagamento</button>
+    </div>
+
+    <div class="resumo">
+      <div class="produto">
+        <img src="imagens/poltrona.jpg" alt="">
+        <div class="info">
+          <p>poltrona</p>
+          <strong>$299</strong>
+        </div>
+        <button class="close">&times;</button>
+      </div>
+
+      <div class="oferta">
+        <input type="text" placeholder="oferta">
+        <a href="#">adicionar código</a>
+      </div>
+
+      <div class="detalhes">
+        <p>Valor <span>$91.00</span></p>
+        <p>Entrega <span>$25.00</span></p>
+        <p class="total">Total <span>$116.00</span></p>
+      </div>
+
+      <select class="endereco">
+        <option>Rua Aldo, 1024</option>
+      </select>
+      <a href="Confirmação.html">
+      <button class="pagar">Pague Agora</button></a>
+    </div>
+  </main>
+
+
+
+ 
+ <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-logo">
+        <h2><span class="vertical">Store</span>Shop</h2>
+      </div>
+
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h4>Informações Gerais</h4>
+          <ul>
+            <li><a href="#">Sobre Nós</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Suporte</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carreiras</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Recursos</h4>
+          <ul>
+            <li><a href="#">Documentação</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Integrações</a></li>
+            <li><a href="#">Testemunhos</a></li>
+            <li><a href="#">Eventos</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Assine</h4>
+          <ul>
+            <li><a href="#">Newsletter</a></li>
+            <li><a href="#">Promoções</a></li>
+            <li><a href="#">Novidades</a></li>
+            <li><a href="#">Mais</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+        <div class="footer-column subscribe">
+          <h4>Inscreva-se</h4>
+          <p>Participe da nossa newsletter e fique por dentro das novidades.</p>
+          <div class="subscribe-form">
+            <input type="email" placeholder="Digite seu e-mail">
+            <button>Inscrever</button>
+          </div>
+          <small>Ao se inscrever, você concorda com nossa Política de Privacidade.</small>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 STORE SHOP. Todos os direitos reservados.</p>
+        <div class="footer-links">
+          <a href="#">Política de Privacidade</a>
+          <a href="#">Termos de Serviço</a>
+          <a href="#">Configurações de Cookies</a>
+        </div>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-x-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
